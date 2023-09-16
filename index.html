@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codebaba</title>
+    <style>
+        /* Marquee Start */
+        .Marquee{
+
+            background-color: #ffdb4d;
+            width: 100%;
+            height: 35px;
+            font-size: 20px;
+            color: black;
+        }
+        .Marquee i:hover{
+            color: red;
+        }
+        /* Marquee End */
+        /* Login Start */
+        .login{
+            background-color: #ffdb4d;
+            width: 100%;
+            height: 40px;
+            color: black;
+            text-align: right;
+            font-size: 20px;
+            display: flex;
+            text-align: center;
+        }
+        .sgnup{
+            width: 120px;
+            height: 33px;
+            background-color: red;
+            border-radius: 5px;
+            text-align: center;
+            position: relative;
+            left: 1200px;
+        }
+        .sgnup:hover{
+            background-color: cyan;
+        }
+        .lgin{
+            width: 100px;
+            height: 33px;
+            background-color: red;
+            border-radius: 5px;
+            text-align: center;
+            position: relative;
+            left: 1220px;
+        }
+        .lgin:hover{
+            background-color: cyan; 
+        }
+        /* Login End */
+        /* Navbar Start */
+        .Navbar{
+            background-color: darkblue;
+            overflow: hidden;
+
+        }
+        .Navbar a{
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .Navbar a:hover{
+            background-color: #ddd;
+            color: black;
+        }
+        .Navbar a.active{
+            background-color: #04AA6D;
+            color: white;
+        }
+        /* Navbar End */
+        /* Flexbox Start */
+        .Outermainbox{
+            width: 100%;
+            height: 460px;
+            background-color: lightyellow;
+        }
+        .Innerbox{
+            display: flex;
+            margin-top: 35px;
+            justify-content: space-evenly;
+        }
+        .Viewmore{
+            border: 2px solid red;
+            width: 140px;
+            height: 30px;
+            background-color: red;
+            border-radius: 5px;
+            text-align: center;
+            margin-left: 38px;    
+        }
+        .img:hover{
+            transform: scale(1.1);
+        }
+        /* Flexbox End */
+        /* Students Review Start */
+        .Stdntouterbox{
+            width: 100%;
+            height: 550px;
+            background-color: lightcyan;
+        }
+        .Stdntinnerbox{
+            display: flex;
+            margin-top: 35px;
+            justify-content: space-evenly;
+        }
+        .Imagecenter{
+            border: 2px solid black;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            margin-top: 20px;
+        }
+        .Box{
+            box-shadow: 0px 0px 5px 5px lightblue;
+        }
+        .Box:hover{
+            box-shadow: 0px 0px 5px 5px lightgreen;
+        }
+        /* Students Review End */
+        /* Our Partners Start */
+        .Mainbox{
+            width: 100%;
+            height: 200px;
+            background-color: lightyellow;
+        }
+        /* Our Partners End */
+        .Ftrmainbox{
+            width: 100%;
+            height: 300px;
+            background-color: #4158d0;
+        }
+        /* Footer Start */
+        .Ftrinnerbox{
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 50PX;
+        }
+        .Ftrinnerbox i:hover{
+            color: red;
+        }
+        .Ftrinnerbox P:hover{
+            color: red;
+        }
+        /* Footer End */
+    </style>
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Font Awsome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Marquee Start -->
+    <div class="Marquee">
+        <marquee direction="left">
+        <i>We Offeres :</i>
+        <i style="margin-left: 30px;" class="fa fa-pencil" aria-hidden="true">Core Java</i>
+        <i style="margin-left: 70px;" class="fa fa-pencil" aria-hidden="true">Advance Java</i>
+        <i style="margin-left: 70px;" class="fa fa-pencil" aria-hidden="true">Oracle</i>
+        <i style="margin-left: 70px;" class="fa fa-pencil" aria-hidden="true">Javascript</i>
+        <i style="margin-left: 70px;" class="fa fa-pencil" aria-hidden="true">Angular</i>
+        </marquee>
+    </div>
+    <!-- Marquee End -->
+    <!-- Login Start -->
+    <div class="login">
+        <div class="sgnup">
+        <i class="fa fa-unlock" aria-hidden="true"><a style="text-decoration: none;color: black;" href="#"> Sign Up</a></i>
+        </div>
+        <div class="lgin">
+        <i class="fa fa-sign-in" aria-hidden="true"><a style="text-decoration: none;color: black;" href="#"> Login</a></i>
+        </div>   
+    </div>
+    <!-- Login End -->
+    <!-- Navbar Start -->
+    <div class="Navbar">
+        <a class="active" href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Software Training</a>
+        <a href="#">Upcoming Batches</a>
+        <a href="#">Internships</a>
+        <a href="#">Resources</a>
+        <a href="#">Students Feedback</a>
+        <a href="#">Placement</a>
+        <a href="#">Gallery</a>
+      </div>
+    <!-- Navbar End -->
+    <!-- Image Start -->
+    <div class="Image">
+        <img style="height: 300px; width: 100%;" src="javaimg.jpg" alt="bannerimageofjava">
+    </div>
+    <!-- Image End -->
+    <!-- Flexboxe Start -->
+    <div class="Outermainbox">
+        <h3 style="text-align: center; padding-top: 20px;">Explore Our Course</h3>
+        <div class="Innerbox">
+        <div style="border: 0px solid black;width: 250px;height: 300px; background-color: #fffbf4;overflow: hidden; box-shadow: 10px 10px 5px lightblue;">
+        <div class="img"><img style="width: 100%;height: 50%;" src="corejava.png" alt="CorejavaImage"></div>
+        <div style="margin-top: 10px; margin-left: 10px;">
+            <h5><i class="fa fa-calendar" aria-hidden="true"></i> 
+                Duration : 2 Months</h5>
+            <h5><i class="fa fa-inr" aria-hidden="true">  </i>   9000
+            </h5>
+            <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add to Cart
+            </h5>
+            <h5 class ="Viewmore"><a style="color: white;" href="#"><i class="fa fa-eye" aria-hidden="true"></i> View More
+            </a></h5>
+        </div>
+        </div>
+        <div style="border: 0px solid black;width: 250px;height: 300px; background-color: #fffbf4;overflow: hidden; box-shadow: 10px 10px 5px lightblue;">
+            <div class="img"><img style="width: 100%;height: 150px;" src="Advjava.jpeg" alt="Advancejava"></div>
+            <div style="margin-top: 10px; margin-left: 10px;">
+                <h5><i class="fa fa-calendar" aria-hidden="true"></i> 
+                    Duration : 2.5 Months</h5>
+                <h5><i class="fa fa-inr" aria-hidden="true">  </i>   12000
+                </h5>
+                <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add to Cart
+                </h5>
+                <h5 class ="Viewmore"><a style="color: white;" href="#"><i class="fa fa-eye" aria-hidden="true"></i> View More
+                </a></h5>
+            </div>
+        </div>
+        <div style="border: 0px solid black;width: 250px;height: 300px; background-color: #fffbf4;overflow: hidden; box-shadow: 10px 10px 5px lightblue;">
+            <div class="img"><img style="width: 100%;height: 150px;" src="mysql.png" alt="MySQLimage"></div>
+            <div style="margin-top: 10px; margin-left: 10px;">
+                <h5><i class="fa fa-calendar" aria-hidden="true"></i> 
+                    Duration : 1.5 Months</h5>
+                <h5><i class="fa fa-inr" aria-hidden="true">  </i>   5000
+                </h5>
+                <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add to Cart
+                </h5>
+                <h5 class ="Viewmore"><a style="color: white;" href="#"><i class="fa fa-eye" aria-hidden="true"></i> View More
+                </a></h5>
+            </div>
+            </div>
+            <div style="border: 0px solid black;width: 250px;height: 300px; background-color: #fffbf4;overflow: hidden; box-shadow: 10px 10px 5px lightblue;">
+                <div class="img"><img style="width: 100%;height: 150px;" src="angular.jpg" alt="AngularImage"></div>
+                <div style="margin-top: 10px; margin-left: 10px;">
+                    <h5><i class="fa fa-calendar" aria-hidden="true"></i> 
+                        Duration : 2 Months</h5>
+                    <h5><i class="fa fa-inr" aria-hidden="true">  </i>   8500
+                    </h5>
+                    <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Add to Cart
+                    </h5>
+                    <h5 class ="Viewmore"><a style="color: white;" href="#"><i class="fa fa-eye" aria-hidden="true"></i> View More
+                    </a></h5>
+                </div>
+                </div> 
+        </div>
+    </div>
+    <!-- Flexbox End -->
+    <!-- Students Review Start -->
+    <div class="Stdntouterbox">
+        <h3 style="text-align: center; padding-top: 20px;">What Our Students Say</h3>
+        <div class="Stdntinnerbox">
+            <div class="Box" style="border: 0px solid black;height: 420px;width: 300px; background-color: #fffbf4;">
+            <img class="Imagecenter" style="height: 100px;width: 100px;border-radius: 50%;" src="image1.png" alt="StudentFirst">
+            <h5 style="text-align: center; margin-top: 5px;">Akash Shinde</h5>
+            <p style="text-align: center; padding: 5px;">"CODEBABA is the No.1 quality software training institute in india for the candidates who want to build their future in Information Technology. They provides online training, class room training, corporate training and one to one training with more passion and dedication".</p>
+            <p style="text-align: center;">Thank You.</p>
+            </div>
+            <div class="Box" style="border: 0px solid black;height: 420px;width: 300px; background-color: #fffbf4;">
+            <img class="Imagecenter" style="height: 100px;width: 100px;border-radius: 50%;" src="image3.png" alt="StudentSecond">
+            <h5 style="text-align: center; margin-top: 5px;">Avni Patil</h5>
+            <p style="text-align: center; padding: 5px;">"CODEBABA is the No.1 quality software training institute in india for the candidates who want to build their future in Information Technology. They provides online training, class room training, corporate training and one to one training with more passion and dedication".</p>
+            <p style="text-align: center;">Thank You.</p>     
+            </div>
+            <div class="Box" style="border: 0px solid black;height: 420px;width: 300px; background-color: #fffbf4; ">
+            <img class="Imagecenter" style="height: 100px;width: 100px;border-radius: 50%;" src="image2.png" alt="Studentthird">
+            <h5 style="text-align: center; margin-top: 5px;">Satish Jadhav</h5>
+            <p style="text-align: center; padding: 5px;">"CODEBABA is the No.1 quality software training institute in india for the candidates who want to build their future in Information Technology. They provides online training, class room training, corporate training and one to one training with more passion and dedication".</p>
+            <p style="text-align: center;">Thank You.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Students Review End -->
+    <!-- Our Partners Start -->
+    <div class="Mainbox">
+        <h3 style="text-align: center; padding-top: 20px;">Our Partners</h3>
+        <marquee behavior="" direction="left">
+            <img style="height: 100px; width: 150px; margin-right: 105px;" src="accenture.png" alt="Accenture">
+            <img style="height: 100px; width: 150px; margin-right: 105px;" src="Veracity.png" alt="Veracity">
+            <img style="height: 100px; width: 150px; margin-right: 105px;" src="Infosys.png " alt="Onfosys">
+            <img style="height: 100px; width: 150px; margin-right: 105px;" src="l&t.png" alt="L&T">
+            <img style="height: 100px; width: 150px; margin-right: 105px;" src="cognizant.png" alt="Cognizant">
+            <img style="height: 100px; width: 150px; margin-right: 105px;" src="amdocs.png" alt="Amdocs">
+        </marquee>
+    </div>
+    <!-- Our Partners End -->
+    <!-- Footer Start -->
+    <div class="Ftrmainbox">
+        <div class="Ftrinnerbox">
+            <div style="height: 240px;width: 300px;">
+            <img style="height: 50px; width: 200px;" src="Codebaba.png" alt="Codebabalogo">
+            <p style="color: white; padding-top: 30px;">CODEBABA is a leading Indian IT training institute preparing tech-aspirants for flourishing careers in this challenging and competitive domain since 2020.</p>
+            </div>
+            <div style="height: 240px;width: 300px;">
+            <h5 style="color: red;">QUICK LINKS</h5>
+            <p><a style="color: white; text-decoration: none;" href="#">About Us</a></p>
+            <p><a style="color: white; text-decoration: none;" href="#">Online Batches</a></p>
+            <p><a style="color: white; text-decoration: none;" href="#">Classroom Batch</a></p>
+            <p><a style="color: white; text-decoration: none;" href="#">Weekend Batch</a></p>
+            <p><a style="color: white; text-decoration: none;" href="#">Contact Us</a></p>
+            </div>
+            <div style="height: 240px;width: 300px;">
+                <h5 style="color: red;">OUR SERVICES</h5>
+                <p><a style="color: white; text-decoration: none;" href="#">Online Training</a></p>
+                <p><a style="color: white; text-decoration: none;" href="#">Classroom Training</a></p>
+                <p><a style="color: white; text-decoration: none;" href="#">Corporate Training</a></p>
+                <p><a style="color: white; text-decoration: none;" href="#">Placement</a></p>
+                <p><a style="color: white; text-decoration: none;" href="#">Internship</a></p>         
+            </div>
+            <div style="height: 240px;width: 300px;">
+                <h5 style="color: red;">CONTACT US</h5>
+                <P><a style="color: white; text-decoration: none;" href="#"><i class="fa fa-phone" aria-hidden="true"> 9370****70</i> 
+                </a></P>
+                <P><a style="color: white; text-decoration: none;" href="#"><i class="fa fa-envelope-o" aria-hidden="true"> info@codebaba.com</i>
+                </a></P>
+                <p><a style="color: white; text-decoration: none;" href="#"><i class="fa fa-map-marker" aria-hidden="true"> Pune</i>
+                </a></p>
+            </div>
+        </div>   
+    </div>
+    <!-- Footer End -->    
+</body>
+</html>
